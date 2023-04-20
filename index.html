@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Medical Center - Home</title>
+	<meta name="description" content="Medical center providing high-quality healthcare services">
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<meta property="og:title" content="Medical Center">
+	<meta property="og:description" content="Medical center providing high-quality healthcare services">
+	<meta property="og:image" content="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+</head>
+<body>
+	<header>
+		<nav>
+            <!-- <img src="favicon.ico" alt="Medical Center Logo"> -->
+			<ul class="menu">
+                <img src="favicon.ico" alt="Medical Center Logo" class="logo">
+				<li><a href="#about">About the center</a></li>
+				<li><a href="#services">Our services</a></li>
+				<li><a href="#staff">Our staff</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+                <!-- <li id="loginBtn"><a>Log in</a></li> -->
+                <li id="loginBtn"><a> <i class="fa fa-sign-in"></i></a></li>
+                <li><a href="signUp.html">Sign up</a></li>
+			</ul>
+		</nav>          
+	</header>
+    <!-- Modal window -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <div class="conteyner">
+                    <div class="contact-box">
+                        <form>  
+                            <button id="closeLogIn"> <i class="fa fa-close fa-lg"></i> </button>
+                            <h1>Log in </h1>
+            
+                            <input type="email" placeholder="Ваш e-mail" name="email" class="field">
+                            <input type="password" placeholder="Пароль" name="psw" class="field">
+            
+                            <button type="submit" id = "buttonLogIn">Log in</button><br>
+                            <button type="button" id = "buttonSignUp" ><a href="signUp.html">Sign up</a></button><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    
+	<main>
+		<section id="about">
+            <div class = "about">
+                <div class = 'header_about_center'>
+                    <h1>About the Center</h1>
+                </div>
+
+                <div class="text_about_center">
+                    <div> <img class="hospital"  src="src/hospiptal.jpg" alt="" ></div>
+                    <p>The Medical Center provides high-quality healthcare services to patients. We are committed to providing
+                        comprehensive and compassionate care to individuals and families in our community.
+                    </p>
+                    
+                    <p>Welcome to Community Care Hospital, a leading medical center committed to providing high-quality healthcare
+                        services to the local community. Our state-of-the-art facility is equipped with advanced technology and
+                        staffed by a team of highly skilled healthcare professionals who are dedicated to delivering compassionate 
+                        care to each and every patient.
+                    </p>
+                    
+                    <p>At Community Care Hospital, we offer a wide range of medical services, including diagnostic imaging, laboratory
+                        testing, surgery, emergency care, and more. Our experienced physicians, nurses, and support staff work 
+                        together to provide personalized care tailored to the unique needs of each patient.
+                    </p>
+
+                    <p>We are proud to serve the community and are committed to promoting health and wellness through education,
+                        outreach, and preventative care. Whether you need routine medical care or advanced treatment for a serious 
+                        condition, you can trust Community Care Hospital to provide exceptional care in a warm and welcoming
+                        environment.
+                    </p>
+            </div>
+           </div>
+ 
+        </section>
+		<section id="services">
+            <div class="services">
+                <div class="services_header">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="services_text">
+                    <ul>
+                        <li>General Medicine</li>
+                        <li>Pediatrics</li>
+                        <li>Cardiology</li>
+                        <li>Orthopedics</li>
+                        <li>Dermatology</li>
+                    </ul>
+                </div>
+            </div>
+		</section>
+		<section id="staff">
+            <div class="staff">
+                <div class="staff_header">
+                    <h1>Our Staff</h1>
+                </div>
+                    <!-- title and tag -->
+                    <div class="container">  
+                        <hr>
+                        <!-- Content of the body-->
+                        <div class="row">
+                            <div class="column">
+                                <div class="content">
+                                    <img class="fotoDoctor" src="src/1.png"
+                                        alt="" style="width:100%">
+                                    <h3><a href="#">Dr. John Doe</a></h3>
+                                    <p>
+                                        General Medicine
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="column">
+                                <div class="content">
+                                    <img class="fotoDoctor" src= "src/2.jpg"
+                                        alt="" style="width:100%">
+                                    <h3><a href="#">Dr. Jane Smith</a></h3>
+                                    <p>
+                                        Pediatrics
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="column">
+                                <div class="content">
+                                    <img class="fotoDoctor" src="src/3.png"
+                                        alt="" style="width:100%">
+                                    <h3><a href="#">Dr. Sarah Jones</a></h3>
+                                    <p>
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="column">
+                                <div class="content">
+                                    <img class="fotoDoctor" src="src/4.png"
+                                        alt="" style="width:100%">
+                                    <h3><a href="#">Dr. Emily Brown </a></h3>                    
+                                    <p>
+                                        Dermatology
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		</section>
+		<section id="aboutus">
+            <div class="aboutus">
+                <div class = 'header_about_center'>
+                    <h1>About Us</h1>
+                </div>
+                <div class="text_about_center">
+                    <p>Our medical center is dedicated to providing exceptional healthcare services to patients in a comfortable
+                        and welcoming environment. We strive to offer personalized care and to build long-lasting relationships 
+                        with our patients.
+                    </p>
+
+                    <p>
+                        At Community Care Hospital, we are a team of dedicated healthcare professionals who are passionate about 
+                        providing the best possible care to our patients. Our team includes experienced physicians, nurses, support staff, 
+                        and administrators who work together to ensure that every patient receives personalized, compassionate care.
+                    </p>
+
+                    <p>
+                        We believe that healthcare is more than just treating symptoms - it's about building relationships with our
+                        patients and their families, and working together to promote health and wellness. We strive to create a 
+                        welcoming and supportive environment that fosters trust and encourages open communication.
+                    </p>
+
+                    <p>Our team is committed to staying up-to-date with the latest medical advancements and techniques, and we 
+                        continuously invest in the latest technology and equipment to ensure that our patients receive the best 
+                        possible care. We are proud to be part of the local community and are dedicated to serving our patients with
+                        the highest level of care and professionalism.
+                    </p>
+
+                    <p>
+                        Thank you for choosing Community Care Hospital, and we look forward to serving you and your family.
+                    </p>
+                </div>
+            </div>    
+		</section>
+		<section id="contact">
+			<div class="footer-clean">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-android-mail"> </i></a></div>
+                        <h6 class="nameMail">Email:</h6>
+                        <h6 class="EmailText">Center@gmail.com</h6>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-android-call"> </i></a></div>
+                        <h6 class="namePhone">Telephone:</h6>
+                        <h6 class="Phone"> +380 097 012 7921</h6>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-android-map"> </i></a></div>
+                        <h6 class="namePhone">t. Sumy</h6>
+                        <h6 class="Phone"> Ukraine</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <div class="inform_about_centr">
+                <p>&copy; 2023 Medical Center. <span class = developer>Design & Develop by Olesia Polezhai</span></p>
+     </div>
+    </footer>
+    <script src="modal.js"></script>
+</body>
+</html> 

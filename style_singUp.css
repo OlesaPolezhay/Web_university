@@ -1,0 +1,99 @@
+body{
+	background-color: #f8f8f8;
+	font-family: sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contact-box{
+	width: 400px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.form{
+	margin: 35px;
+}
+
+.field{
+	width: 360px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	outline: none;
+    border-color:solid;
+    
+}
+
+button{
+	width: 360px;
+	background-color:#00CED1;
+	border-color:solid;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    color: white;
+}
+
+#buttonSignUp{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h1{
+    position: relative;
+    left: 140px;
+    margin-top: 15px;
+    color: #00CED1;
+}
+
+#fname{
+    float: right;
+}
+
+.radioButton, .birthday, .healthy{
+    width: 360px;
+	border-style: solid;
+    border-width: 0.5px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+span{
+    font-weight: 100;
+}
+
+#birthday, #multiple{
+    float: right;
+}
+
+ #work{
+    margin-left: 30px;
+}
+
+
+#radioButton1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,88 @@
+body{
+	background-color: #f8f8f8;
+	font-family: sans-serif;
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contact-box{
+	width: 280px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.form{
+	margin: 50px;
+}
+
+.field{
+	width: 260px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	outline: none;
+    border-color:solid;
+    
+}
+
+button{
+	width: 260px;
+	background-color: #00CED1;
+	border-color:solid;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    color: white;
+}
+
+#buttonSignUp{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form h1{
+	color: #00CED1;
+    position: relative;
+    left: 80px;
+    margin-top: 0px;
+}
+
+form i{
+	padding-top: 7px;
+	padding-left: 200px;
+	padding-bottom: 0px;
+	color: #00CED1;
+}
+
+.modal-content{
+	padding-top:  370px;
+	padding-bottom: 360px;
+}
+
+#closeLogIn{
+	outline: none;
+	background-color: #fff;
+	border: #f8f8f8;
+	margin: 0px;
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+

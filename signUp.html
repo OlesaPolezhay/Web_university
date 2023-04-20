@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="style_singUp.css">
+</head>
+<body>
+        <div class="contact-box">
+            <form>
+
+                <h1> Sign up </h1>
+
+                <input type="text" placeholder="Name" name="name" class="field">
+                <input type="text" placeholder="Surname" name="surname" class="field">
+                <input type="email" placeholder="e-mail" name="email" class="field">
+
+                <textarea id="Message" name="Message" placeholder="chronic diseases" class="field"> </textarea> <br>
+
+                <div class="birthday"> 
+                    <label for="birthday">Date of birth  </label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </div>
+
+                <div class="radioButton"> 
+                    <label><span class="radioText"> You are over 18 years old</span></label><br>
+                    <input type="radio" id="radioButton1">
+                    <label><span> Yes </span></label><br>
+                    <input type="radio" id="radioButton2">
+                    <label><span> No</span> </label><br><br>
+                </div>
+
+                <div class="healthy"> 
+                    <label class="insurance">You have health insurance  </label> 
+                    <select name="insurance" multiple="multiple" size="1" id = "multiple">
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select><br><br>
+                </div>
+
+                <input type="password" placeholder="password" name="psw" class="field"><br><br>
+              
+                <input id="work" type="checkbox">
+                <label for="work" class="check">I consent to the processing of personal data </label><br><br>
+
+                <button type="reset" id = "buttonCleanUp" >clean up</button> <br><br>
+                <button type="submit" id = "buttonSignUp" >sign up</button><br>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

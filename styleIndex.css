@@ -1,0 +1,288 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+.logo{
+    background-color: #fff;
+    margin-right: 22px;
+    margin-left: 15px;
+    padding-left: 0;
+}
+
+.menu{
+    display: flex;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0;
+  }
+  
+  .menu li{
+    width: 250px;
+    list-style: none;
+    background: #00CED1;
+    position: relative;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: large;
+  }
+
+  #loginBtn{
+    color: #fff;
+  }
+
+  #loginBtn :hover{
+    color: black;
+  }
+   
+  .menu ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+  }
+
+  .menu a:hover {
+    color: black;
+}
+
+.header_about_center, .staff_header, .services_header{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.text_about_center{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.p{
+    text-align: center;
+}
+
+#about, #aboutus, #staff, #services, #contact{
+    margin-top: 20px;
+    padding-right: 7px;
+    padding-left: 83px;
+    padding-top: 20px;
+}
+
+.about, .aboutus, .staff, .services, .footer-clean{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+  
+h1 {
+    color: green;
+}
+  
+
+  
+.row {
+    margin: 0px -18px;
+    padding: 8px;
+}
+  
+.row > .column {
+    padding: 6px;
+}
+  
+.column {
+    float: left;
+    width: 25%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+.content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+  
+
+@media screen and (max-width: 850px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+
+.fotoDoctor{
+    width: 100px;
+    height: 300px;
+}
+
+footer{
+    background-color: #f1f1f1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+}
+
+.developer{
+    padding-left: 1000px;
+}
+
+.hospital{
+    height: auto;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .developer{
+        padding-left: 590px;
+    }
+
+
+    .hospital{
+        height: auto;
+        width: 400px;
+    }
+
+    .menu a {
+        font-size: medium;
+    }
+
+    p, .services_text ul li{
+        font-size: 20px;
+    }
+
+    .header_about_center h1, .services_header h1{
+        font-size: 55px;
+    } 
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .column {
+        width: 50%;
+    }
+    .developer{
+        padding-left: 130px;
+    }
+    .hospital{
+        height: auto;
+        width: 300px;
+    }
+    .menu a {
+        font-size: large;
+    }
+
+    p, .services_text ul li{
+        font-size: 30px;
+    }
+
+    .header_about_center h1, .services_header h1{
+        font-size: 50px;
+    } 
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .menu li {
+        width: 100%;
+    }
+    .developer{
+        padding-left: 5px;
+    }
+    .hospital{
+        height: auto;
+        width: 200px;
+    }
+    .menu a {
+        font-size: x-small;
+    }
+
+    p, .services_text ul li{
+        font-size:25px;
+    }
+
+    .header_about_center h1, .services_header h1{
+        font-size: 40px;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .menu li {
+        width: 100%;
+    }
+    .developer{
+        padding-left: 100px;
+    }
+    .hospital{
+        height: auto;
+        width: 80px;
+    }
+    .menu a {
+        font-size: xx-small;
+    }
+
+    p, .services_text ul li{
+        font-size: 17px;
+    }
+
+    .header_about_center h1, .services_header h1{
+        font-size: 30px;
+    } 
+
+}
+
+
