@@ -33,14 +33,6 @@ body{
     line-height: 40px;
     font-size: large;
   }
-
-  #loginBtn{
-    color: #fff;
-  }
-
-  #loginBtn :hover{
-    color: black;
-  }
    
   .menu ul {
     position: absolute;
@@ -53,7 +45,7 @@ body{
     color: black;
 }
 
-.header_about_center, .staff_header, .services_header{
+.header_about_center, .staff_header, .services_header, .rhombusArea{
     margin-top: 40px;
     text-align: center;
     margin-bottom: 40px;
@@ -70,14 +62,14 @@ body{
     text-align: center;
 }
 
-#about, #aboutus, #staff, #services, #contact{
+#about, #aboutus, #staff, #services, #contact, #rhombusArea{
     margin-top: 20px;
     padding-right: 7px;
     padding-left: 83px;
     padding-top: 20px;
 }
 
-.about, .aboutus, .staff, .services, .footer-clean{
+.about, .aboutus, .staff, .services, .footer-clean, .rhombusArea{
     background-color: aliceblue;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -87,8 +79,52 @@ body{
 * {
     box-sizing: border-box;
 }
-  
 
+button{
+	width: 260px;
+	background-color: #00CED1;
+	border-color:solid;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    color: white;
+}
+
+
+.field{
+	width: 260px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	outline: none;
+    border-color:solid;  
+}
+
+.error {
+    border: 2px solid red;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+#a-error-message{
+    text-align: left;
+    padding-left: 480px;
+}
+
+#h-error-message{
+padding-left: 270px;
+}
 
 .container {
     max-width: 1200px;
@@ -217,7 +253,6 @@ footer{
     .header_about_center h1, .services_header h1{
         font-size: 50px;
     } 
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -282,7 +317,6 @@ footer{
     .header_about_center h1, .services_header h1{
         font-size: 30px;
     } 
-
 }
 
 

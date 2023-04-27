@@ -21,7 +21,7 @@ body{
 }
 
 .form{
-	margin: 50px;
+	margin: 35px;
 }
 
 .field{
@@ -56,33 +56,9 @@ button{
     margin-bottom: 20px;
 }
 
-form h1{
+h1{
 	color: #00CED1;
     position: relative;
     left: 80px;
-    margin-top: 0px;
+    margin-top: 15px;
 }
-
-form i{
-	padding-top: 7px;
-	padding-left: 200px;
-	padding-bottom: 0px;
-	color: #00CED1;
-}
-
-.modal-content{
-	padding-top:  370px;
-	padding-bottom: 360px;
-}
-
-#closeLogIn{
-	outline: none;
-	background-color: #fff;
-	border: #f8f8f8;
-	margin: 0px;
-	padding-left: 50px;
-	padding-top: 5px;
-	padding-bottom: 0;
-}
-
-
